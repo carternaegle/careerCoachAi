@@ -1,0 +1,7 @@
+.reason-div {
+    display: flex;
+    width: fit-content;
+    max-width: 700px;  
+    margin-right: auto;
+    margin-left: auto;  
+}
