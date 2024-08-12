@@ -19,9 +19,6 @@ const passwordRecovery = () => {
                 <Typography variant="h8">
                     You will recieve instructions for how to reset your password. 
                 </Typography>
-                <Typography>
-                    *This may take up to 5 minutes. Please check your junk folder as well.
-                </Typography>
                 <TextField
                     label="Email"
                     type="email"
@@ -31,6 +28,9 @@ const passwordRecovery = () => {
                     InputLabelProps={{ style: { color: '#000' } }}
                     InputProps={{ style: { color: '#000', borderColor: '#000' } }}
                 />
+                <Typography sx={{ fontSize: 14}}>
+                    *This may take up to 5 minutes. Please check your junk folder as well.
+                </Typography>
                 <Button
                     type="submit"
                     variant="contained"

@@ -9,6 +9,7 @@ import Contact from './components/contact/contact';
 import CreateAccount from './components/createAccount/createAccount';
 import Login from './components/Login/login';
 import PasswordRecovery from './components/passwordRecovery/passwordRecovery'
+import Dashboard from './components/dashboard/dashboard';
 
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/createAccount" element={<CreateAccount />} />
             <Route path="/login" element={<Login />} />
             <Route path="/passwordRecovery" element={<PasswordRecovery />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </main>
       </div>  
