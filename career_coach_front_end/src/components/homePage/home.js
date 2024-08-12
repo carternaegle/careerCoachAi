@@ -15,7 +15,7 @@ const homePage = () => {
             </p>
 
             <Box>
-                <Button color="primary" variant='contained'>
+                <Button color="primary" variant='contained' href="./createAccount">
                     Get Started
                 </Button>
             </Box>

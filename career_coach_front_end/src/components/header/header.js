@@ -11,17 +11,17 @@ const Header = () => {
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', padding: '0 20px' }}>
         {/* Logo on the Left */}
         <Box sx={{ flex: 1, display: 'flex', justifyContent: 'flex-start' }}>
-          <Typography variant="h6" noWrap component="div">
-            Career Coach AI
-          </Typography>
+          <Button color="inherit" href="./home">
+            <img src="/headerimage.png" alt="Career Coach AI Logo" style={{ height: '100%', maxHeight: '50px' }} />
+          </Button>
         </Box>
 
         {/* Navigation in the Middle */}
         <Box sx={{ flex: 1, display: 'flex', justifyContent: 'center', gap: 3 }}>
-          <Button color="inherit" href="./home">Home</Button>
-          <Button color="inherit" href="./about">About</Button>
-          <Button color="inherit" href="./services">Services</Button>
-          <Button color="inherit" href="./contact">Contact</Button>
+          <Button color="inherit" href="./home" sx={{ fontSize: '1rem' }}>Home</Button>
+          <Button color="inherit" href="./about" sx={{ fontSize: '1rem' }}>About</Button>
+          <Button color="inherit" href="./services" sx={{ fontSize: '1rem' }}>Services</Button>
+          <Button color="inherit" href="./contact" sx={{ fontSize: '1rem' }}>Contact</Button>
         </Box>
 
         {/* Login Button on the Right */}

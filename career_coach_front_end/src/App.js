@@ -7,7 +7,8 @@ import About from './components/about/about';
 import Services from './components/services/services';
 import Contact from './components/contact/contact';
 import CreateAccount from './components/createAccount/createAccount';
-import Login from './components/Login/login'; // need to switch from Login to login
+import Login from './components/Login/login';
+import PasswordRecovery from './components/passwordRecovery/passwordRecovery'
 
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/createAccount" element={<CreateAccount />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/passwordRecovery" element={<PasswordRecovery />} />
           </Routes>
         </main>
       </div>  
