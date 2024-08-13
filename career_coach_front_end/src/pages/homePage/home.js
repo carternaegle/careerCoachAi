@@ -12,8 +12,11 @@ const homePage = () => {
                 <Typography variant= 'h2'>
                     Welcome to Career Coach AI
                 </Typography>
+                <Typography variant='h4' sx={{ marginTop: 2 }}>
+                    The Best AI Career Coach Available
+                </Typography>
             </Box>
-            <Box>
+            <Box sx={{ marginTop: 2 }}>
                 <Button color="primary" variant='contained' href="./createAccount">
                     Get Started
                 </Button>

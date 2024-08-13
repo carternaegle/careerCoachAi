@@ -10,6 +10,7 @@ import CreateAccount from './pages/createAccount/createAccount';
 import Login from './pages/Login/login';
 import PasswordRecovery from './pages/passwordRecovery/passwordRecovery'
 import Dashboard from './pages/dashboard/dashboard';
+import Pricing from './pages/pricing/pricing';
 
 import './App.css';
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/passwordRecovery" element={<PasswordRecovery />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/pricing" element={<Pricing />} />
           </Routes>
         </main>
       </div>  
