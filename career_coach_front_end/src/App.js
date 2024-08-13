@@ -1,15 +1,15 @@
 // Career Coach Ai
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Home from './components/homePage/home';
+import Home from './pages/homePage/home';
 import Header from './components/header/header';
-import About from './components/about/about';
-import Services from './components/services/services';
-import Contact from './components/contact/contact';
-import CreateAccount from './components/createAccount/createAccount';
-import Login from './components/Login/login';
-import PasswordRecovery from './components/passwordRecovery/passwordRecovery'
-import Dashboard from './components/dashboard/dashboard';
+import About from './pages/about/about';
+import Services from './pages/services/services';
+import Contact from './pages/contact/contact';
+import CreateAccount from './pages/createAccount/createAccount';
+import Login from './pages/Login/login';
+import PasswordRecovery from './pages/passwordRecovery/passwordRecovery'
+import Dashboard from './pages/dashboard/dashboard';
 
 import './App.css';
 
