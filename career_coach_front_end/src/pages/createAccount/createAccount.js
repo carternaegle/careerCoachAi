@@ -45,7 +45,7 @@ const CreateAccountPage = () => {
             InputProps={{ style: { color: '#000', borderColor: '#000' } }}
           />
           <TextField
-            label="LastName"
+            label="Last Name"
             variant="outlined"
             fullWidth
             required
